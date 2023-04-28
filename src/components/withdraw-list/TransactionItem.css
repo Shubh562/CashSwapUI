@@ -1,0 +1,81 @@
+.list-group-item {
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.list-group-item:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item.hover-shadow:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.badge-success {
+  background-color: green;
+}
+
+.list-group-item+.list-group-item {
+  border-top-width: 1px;
+}
+
+
+.list-group-item.active-status {
+  background-color:white;
+}
+
+.list-group-item.expired-status {
+  background-color: rgba(168, 168, 168, 0.467);
+}
+
+.list-group-item.qr_generated-status {
+  background-color:white;
+}
+
+.list-group-item.cash_dispensed-status {
+  background-color:  rgba(21, 232, 21, 0.183);
+}
+
+.list-group-item.qr_scanned-status {
+  background-color: white;
+}
+
+.active-status-text {
+ color: black;
+}
+
+.expired-status-text {
+ color: black;
+}
+
+.qr_generated-status-text {
+ color: black;
+}
+
+.cash_dispensed-status-text {
+ color:black;
+}
+
+.qr_scanned-status-text {
+ color: black;
+}
+
+.active-status-badge {
+  background-color: green;
+ }
+ 
+ .expired-status-badge {
+  background-color: rgb(117, 117, 117);
+ }
+ 
+ .qr_generated-status-badge {
+  background-color: green
+ }
+ 
+ .cash_dispensed-status-badge {
+  background-color: darkgreen;
+ }
+ 
+ .qr_scanned-status-badge {
+  background-color: green;
+ }

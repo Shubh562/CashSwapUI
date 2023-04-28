@@ -1,0 +1,62 @@
+Acc Holder user 1
+9999999901
+John Doe
+john.doe@abc.xyz
+1234
+
+user 1
+9999999991
+Max Spade
+max.spade@example.xyz
+1234
+
+
+// improvements
+
+John Doe
+
+time after date
+
+valid till
+
+Sent by
+
+Mob no.
+
+Masking of mobile no.
+show Only last 4 digits
+
+logout should be flipped
+
+dynamic token: frequency : 
+
+
+
+challanges:
+
+problem with scanning
+
+stages:
+ticket generated
+token generated
+Qr generated
+Cash dispensed
+
+cash limit:
+
+-> design to be integrable
+-> lifecycle of transaction
+-> cap of cash
+-> send the screenshots after resolutions of comments
+-> screen resizable
+-> scroll bar
+
+-> persona journey
+
+-> get it done in wells fargo network
+
+-> 
+
+Orchestra framework
+mongoDb
+

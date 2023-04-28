@@ -1,0 +1,118 @@
+.logout-icon {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  vertical-align: middle;
+  background-image: url("./assets/logout.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.back-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: url("./assets/left-arrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.logout-button {
+  border: none;
+  background: transparent;
+  width: 2em;
+  height: 2em;
+  display: inline-block;
+  vertical-align: middle;
+  transform: rotate(180);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 1em;
+  background-size: 100%;
+}
+
+.back-button {
+  border: none;
+  background: transparent;
+  width: 2em;
+  height: 2em;
+  display: inline-block;
+  vertical-align: middle;
+  transform: rotate(180);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 1em;
+  background-size: 100%;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+body {
+  background-color: rgba(166, 224, 255, 0.752);
+  min-height: 100Vh;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  position: relative;
+}
+
+/* .modal {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+}
+
+.modal__content,
+.modal__footer {
+  position: absolute;
+  width: 100%;
+}
+
+.modal__content {
+  bottom: 100px;
+  top: 100px;
+  overflow-y: auto;
+}
+
+.modal__footer {
+  bottom: 0;
+} */
+
+.modal {
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}.modal.open {
+}.modal__header,
+.modal__footer {
+  /* height: 100px; */
+}.modal__content {
+  height: 100%;
+  overflow-y: auto;
+}

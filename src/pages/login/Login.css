@@ -1,0 +1,18 @@
+.app-info-card {
+  /* margin: 0.5rem auto; */
+  width: 70%;
+  max-width: 600px;
+  box-shadow: 0 6px 6px 0 rgba(32, 32, 33, 0.394);
+  border: none;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1.5%;
+  background-color: rgba(144, 146, 239, 0.123)!important;
+}
+
+
+@media (max-width: 768px) {
+  .app-info-card {
+    width: 90%;
+  }
+}
